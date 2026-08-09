@@ -5,13 +5,13 @@ const Ejercicios = () => {
   const [base, setBase] = useState(0);
   const [altura, setAltura] = useState(0);
 
-  function calcularAreaCuadrado(base, altura) {
+    function calcularAreaCuadrado(base: number, altura: number) {
     return base * altura;
   }
 
   // --- EJERCICIO 2: Suma de elementos de un arreglo ---
   const arregloSuma = [10, 20, 30, 40];
-  function sumarArreglo(arr) {
+    function sumarArreglo(arr: number[]) {
     let total = 0;
     for (let i = 0; i < arr.length; i++) {
       total = total + arr[i];
