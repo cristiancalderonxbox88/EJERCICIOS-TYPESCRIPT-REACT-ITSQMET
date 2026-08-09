@@ -30,11 +30,11 @@ const Ejercicios = () => {
   const [notaWendy, setNotaWendy] = useState(8);
   const [notaGerson, setNotaGerson] = useState(9);
 
-  function calcularPromedio(nota1, nota2, nota3) {
-    let sumaCalificaciones = nota1 + nota2 + nota3;
-    let promedio = sumaCalificaciones / 3;
-    return promedio;
-  }
+  function calcularPromedio(nota1: number, nota2: number, nota3: number) {
+  let sumaCalificaciones = nota1 + nota2 + nota3;
+  let promedio = sumaCalificaciones / 3;
+  return promedio;
+}
 
   // --- EJERCICIO 5: Acumulador con useState ---
   const [contador, setContador] = useState(5);
